@@ -261,6 +261,15 @@ form.site-form button {
   border: none;
   cursor: pointer;
 }
+form.site-form button:disabled { opacity: 0.6; cursor: default; }
+form.site-form .form-status {
+  margin-top: 16px;
+  padding: 12px 14px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+form.site-form .form-status.success { background: #E4F5EE; color: var(--teal-900); }
+form.site-form .form-status.error { background: #FBEAEA; color: var(--danger); }
 
 .reassure-list { display: grid; gap: 14px; }
 .reassure-list .item { display: flex; gap: 12px; align-items: flex-start; }
