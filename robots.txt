@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://petermkirby.github.io/Water-Filtration/sitemap.xml
+Sitemap: https://hingham.mawaterwatch.org/sitemap.xml
