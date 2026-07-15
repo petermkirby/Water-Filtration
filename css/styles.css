@@ -177,7 +177,7 @@ section.block.dark p { color: #D3D1C7; }
   display: grid;
   grid-template-columns: 1.1fr 0.9fr;
   gap: 40px;
-  align-items: center;
+  align-items: start;
 }
 .two-col img { width: 100%; height: auto; border-radius: 8px; display: block; }
 
